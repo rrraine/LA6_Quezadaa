@@ -54,6 +54,7 @@ public class SimpleCalculator extends JFrame{
     }
     public static void main(String[] args) {
         SimpleCalculator app = new SimpleCalculator();
+        app.setTitle("Simple Calculator");
         app.setContentPane(app.jpMain);
         app.setSize(650, 200);
         app.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
